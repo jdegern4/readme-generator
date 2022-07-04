@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./generateMarkdown');
 
 const questions = () => {
     return inquirer.prompt([
@@ -58,8 +58,8 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'contribution',
-            message: 'What are the guidelines for people who wish to contribute to the project?',
+            name: 'contributors',
+            message: 'Who has contributed to this project?',
             validate: userInput => {
                 if (userInput) {
                     return true;
@@ -73,6 +73,32 @@ const questions = () => {
             type: 'input',
             name: 'tests',
             message: 'What are the instructions for testing your application? (CLI commands, etc)',
+        },
+        {
+            type: 'input',
+            name: 'username',
+            message: 'What is your Github username?',
+            validate: userInput => {
+                if (userInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your Github username!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?',
+            validate: userInput => {
+                if (userInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your email address!');
+                    return false;
+                }
+            }
         },
     ])
 };
