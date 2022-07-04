@@ -38,18 +38,6 @@ function renderLicenseLink(license) {
   return licenseLink;
 }
 
-// Return the license section
-// If there is no license, return an empty string
-/* function renderLicenseSection(license) {
-  let licenseSection = '';
-  if (license === 'No license') {
-    licenseSection = '';
-  } else {
-    licenseSection = `${badge} ${licenseLink}`;
-  };
-  return licenseSection;
-}; */
-
 // Generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
