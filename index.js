@@ -57,6 +57,12 @@ const questions = () => {
             }
         },
         {
+            type: 'list',
+            name: 'license',
+            message: 'Under which license(s) are your application covered?',
+            choices: ['Apache', 'BSD', 'GNU General Public License', 'MIT', 'No license'],
+        },
+        {
             type: 'input',
             name: 'contributors',
             message: 'Who has contributed to this project?',

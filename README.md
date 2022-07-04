@@ -1,28 +1,31 @@
 # README Generator
 
+  ## License
+  ![MIT License logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/License_icon-mit.svg) [Licensed under the MIT License](https://opensource.org/licenses/MIT)
+
   ## Description
-  undefined
+  Generate professional README files
 
   ## Table of Contents
   ### [Installation](#installation)
   ### [Usage](#usage)
   ### [Contributors](#contributors)
   ### [Tests](#tests)
-  ### [Contact](#contact)
+  ### [Questions](#questions)
 
 
   ## Installation
-  Download application files
+  Download repo files
 
   ## Usage
-  Open source, fair use applies
+  Open for public use
 
   ## Contributors
   Jordan Degerness
 
   ## Tests
-  Run 'node index' in your bash command line
+  Run 'node index.js' from Bash CLI
 
-  ## Contact
+  ## Questions
   Github: github.com/jdegern4
   Email: degco44@gmail.com
