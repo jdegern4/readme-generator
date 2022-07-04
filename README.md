@@ -4,7 +4,7 @@
   ![MIT License logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/License_icon-mit.svg) [Licensed under the MIT License](https://opensource.org/licenses/MIT)
 
   ## Description
-  Generate professional README files
+  Generates professional quality README files for your projects.
 
   ## Table of Contents
   ### [Installation](#installation)
@@ -24,7 +24,7 @@
   Jordan Degerness
 
   ## Tests
-  Run 'node index.js' from Bash CLI
+  Run "node index.js" from Bash CLI
 
   ## Questions
   Github: github.com/jdegern4
